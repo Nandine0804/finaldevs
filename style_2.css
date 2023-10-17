@@ -408,10 +408,10 @@ a {
   align-items: center;
   padding: 2rem 3rem;
   transition: 0.3s ease-in-out;
-
-  /* backdrop-filter: blur(5px);
-    background-color: #c4c4c48e;
-    position: sticky; */
+  max-height: 8rem;
+  backdrop-filter: blur(5px);
+  background-color: #00111111;
+  position: sticky;
 }
 #navbar {
   top: 0;
@@ -949,6 +949,9 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
 }
 .s5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 260px;
   min-height: 260px;
   background-color: var(--bkg-colr);
@@ -977,12 +980,7 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* top: 34px; */
-  top: 12px;
-
-  position: absolute;
   transition: 0.1s ease-in-out;
-  z-index: 0;
 }
 
 .button_social_group a {
@@ -1049,10 +1047,10 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   align-items: center;
   flex-direction: row;
-  position: absolute;
-  top: 50%;
-  width: 227px;
-  margin-left: -0.8rem;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* width: 227px; */
+  /* margin-left: -0.8rem; */
 }
 
 .jwat {
@@ -2131,7 +2129,7 @@ body::-webkit-scrollbar-thumb:hover {
     animation: none;
   }
   .main-title {
-    font-size: 9vh;
+    font-size: 7vh;
   }
   .lines {
     top: 50%;
