@@ -1806,7 +1806,7 @@ body::-webkit-scrollbar-thumb:hover {
   border-bottom: 2px solid rgba(161, 161, 161, 0);
 }
 #spoo {
-  margin-left: 100%;
+  margin-left: 0;
 }
 #spuuu {
   margin-right: 10vw;
@@ -1882,6 +1882,9 @@ body::-webkit-scrollbar-thumb:hover {
   .logo {
     display: flex;
     stroke-width: 1;
+    img {
+      height: 100px;
+    }
   }
   .container_1 {
     display: flex;
@@ -2218,7 +2221,7 @@ body::-webkit-scrollbar-thumb:hover {
     z-index: 2;
 
     right: 5%;
-    top: 55%;
+    top: 35%;
   }
   .burger .burger-lines:after {
     left: 0;
@@ -2521,4 +2524,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #a2 {
   transition: 0.5s ease-in-out;
+}
+
+.logo img {
+  max-width: 9rem;
+  aspect-ratio: 1;
 }
