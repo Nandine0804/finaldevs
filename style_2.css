@@ -701,10 +701,21 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: var(--bkg-colr);
 }
 
-.org img {
+#org .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     width: 100%;
-    object-fit: contain;
-    height: 100%;
+    /* max-height: 100%; */
+}
+
+#org img {
+    width: 260px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#org .spon_n {
+    margin-bottom: 150px;
 }
 
 .crec {
@@ -1957,6 +1968,20 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    #org .content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+    }
+    #org img {
+        margin: 0 auto;
+        display: flex;
+    }
+    #org .spon_n {
+        color: white !important;
+        font-size: 25px;
+    }
     #spoo {
         margin-left: 7vh;
     }
