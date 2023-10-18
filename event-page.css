@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     background-color: black;
-    height: 120vh;
+    height: 130vh;
 }
 
 #valorant {
@@ -103,7 +103,7 @@ h2 h2 span:after {
 
 @media screen and (max-width: 768px) {
     .event_container {
-        height: 150vh;
+        height: 160vh;
     }
     #valorant {
         height: 150vh;
@@ -161,7 +161,7 @@ h2 h2 span:after {
 
 @media screen and (max-width: 380px) {
     .event_container {
-        height: 230vh;
+        height: 240vh;
     }
     #valorant {
         height: 210vh;
