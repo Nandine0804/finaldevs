@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     background-color: black;
-    height: 130vh;
+    height: 160vh;
 }
 
 #valorant {
@@ -129,7 +129,7 @@ h2 h2 span:after {
         height: 150vh;
     }
     .event_info {
-        top: 15%;
+        top: 5%;
         padding: 1rem 2rem;
     }
     .event_container h2 {
