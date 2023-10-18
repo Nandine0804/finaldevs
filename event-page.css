@@ -123,7 +123,7 @@ h2 h2 span:after {
 
 @media screen and (max-width: 768px) {
     .event_container {
-        height: 160vh;
+        height: 220vh;
     }
     #valorant {
         height: 150vh;
@@ -181,7 +181,7 @@ h2 h2 span:after {
 
 @media screen and (max-width: 380px) {
     .event_container {
-        height: 240vh;
+        height: 300vh;
     }
     #valorant {
         height: 210vh;
