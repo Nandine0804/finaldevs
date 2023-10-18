@@ -1374,6 +1374,14 @@ body::-webkit-scrollbar-thumb:hover {
     padding-right: 19px;
 }
 
+.card button a {
+    color: white;
+}
+
+.card button:hover a {
+    color: rgb(0, 0, 0);
+}
+
 .card button:hover {
     transition: all 0.3s ease-in-out;
     background-color: #ffffff;
